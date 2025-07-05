@@ -1,5 +1,6 @@
 import React from 'react';
 import { ToggleButton } from '../components/ThemeToggle'
+import { StarBackground } from '../components/StarBackground';
 
 export const Home = () => {
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -8,6 +9,7 @@ export const Home = () => {
         <ToggleButton />
 
         {/*Background Effects*/}
+        <StarBackground />
 
         {/*Navbar*/}
 
