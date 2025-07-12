@@ -1,3 +1,3 @@
 # Ingrid's Site
 
-Work in Progress :p
+Personal portfolio site built using ReactJS and Tailwind CSS.
