@@ -1,4 +1,4 @@
-import { Guitar, ShieldUser, AppWindow } from "lucide-react"
+import { Github, Guitar, ShieldUser, AppWindow } from "lucide-react"
 
 export const AboutSection = () => {
     return <section id="about" className="px-4 py-4 relative">
@@ -77,7 +77,6 @@ export const AboutSection = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
