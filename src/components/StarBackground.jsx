@@ -36,9 +36,8 @@ export const StarBackground = () => {
                 opacity: Math.random() * 0.5 + 0.5, //random opacity between 50% and 100%
                 animationDuration: Math.random() * 4 + 2 //between 2-6 seconds
             });
-
-            setStars(newStars);
         }
+            setStars(newStars);
     }
 
     const generateMeteors = () => {
@@ -55,9 +54,9 @@ export const StarBackground = () => {
                 delay: Math.random() * 15,
                 animationDuration: Math.random() * 3 + 3 //between 2-6 seconds
             });
+        }
 
             setMeteors(newMeteors);
-        }
     }
 
     return <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
