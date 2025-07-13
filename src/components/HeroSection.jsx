@@ -16,8 +16,14 @@ export const HeroSection = () => {
                     learning frontend technologies in my free time :)
                 </p>
 
-                <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="#projects" className="cosmic-button">View My Work</a>
+                <div className="flex justify-center gap-4">
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <a href="#projects" className="cosmic-button">View My Work</a>
+                    </div>
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <a href="https://github.com/ingridduggan/personal-site" target="_blank" 
+                        className="cosmic-button">View Website Code</a>
+                    </div>
                 </div>
             </div>
 
