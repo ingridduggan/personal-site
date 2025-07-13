@@ -13,11 +13,17 @@ export const HeroSection = () => {
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     A backend developer working in cybersecurity and
-                    learning frontend technologies in my free time :p
+                    learning frontend technologies in my free time :)
                 </p>
 
-                <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="#projects" className="cosmic-button">View My Work</a>
+                <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <a href="#projects" className="cosmic-button">View My Work</a>
+                    </div>
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <a href="https://github.com/ingridduggan/personal-site" target="_blank" 
+                        className="cosmic-button">View Website Code</a>
+                    </div>
                 </div>
             </div>
 

@@ -20,7 +20,7 @@ const skills = [
     {name: "Git/Github", level: 90, category: "tools"},
     {name: "Jenkins", level: 90, category: "tools"},
     {name: "AWS", level: 65, category: "tools"},
-    {name: "Figma", level: 80, category: "tools"},
+    {name: "Figma", level: 70, category: "tools"},
     {name: "Inkscape", level: 85, category: "tools"},
     {name: "Terraform", level: 50, category: "tools"},
 ];

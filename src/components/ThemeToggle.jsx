@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils.js";
 
 export const ToggleButton = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false); //defaults to light mode
+    const [isDarkMode, setIsDarkMode] = useState(true); //defaults to dark mode
 
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme") //get stored theme when page renders
