@@ -44,7 +44,7 @@ export const ProjectSection = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project, key) => (
                     <div key={key} className='bg-card p-6 rounded-lg shadow-xs card-hover'>
-                        <h3 className=" px-24 justify-center"><Construction/></h3>
+                        <h3 className="flex px-24 justify-center"><Construction/></h3>
                     </div>
                 ))}
             </div>
